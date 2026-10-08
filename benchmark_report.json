@@ -1,0 +1,440 @@
+{
+  "summary": {
+    "claims": 53,
+    "full": 51,
+    "partial": 2,
+    "miss": 0,
+    "critical_errors": 0,
+    "false_assurance": 0,
+    "exact_rate": 0.962,
+    "precision_PROVED": 1.0,
+    "precision_REFUTED": 1.0,
+    "max_ms": 409.472
+  },
+  "rows": [
+    {
+      "id": "eq-pythagoras",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 228.374
+    },
+    {
+      "id": "eq-square-expand",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 36.575
+    },
+    {
+      "id": "eq-diff-squares",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 51.94
+    },
+    {
+      "id": "eq-exp-add",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 37.615
+    },
+    {
+      "id": "eq-sin-double",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 67.587
+    },
+    {
+      "id": "eq-cos-double",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 49.629
+    },
+    {
+      "id": "eq-tan-ratio",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 45.103
+    },
+    {
+      "id": "eq-cancel",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 43.872
+    },
+    {
+      "id": "eq-sqrt-abs",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "SUPPORTED",
+      "grade": "partial",
+      "ms": 35.518
+    },
+    {
+      "id": "eq-diff-cubes",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 79.811
+    },
+    {
+      "id": "eq-sinh-def",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 409.472
+    },
+    {
+      "id": "eq-hyp-pyth",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 69.618
+    },
+    {
+      "id": "eq-log-exp-real",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "SUPPORTED",
+      "grade": "partial",
+      "ms": 31.918
+    },
+    {
+      "id": "eq-sin-sum",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 154.233
+    },
+    {
+      "id": "eq-cube-expand",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 94.666
+    },
+    {
+      "id": "eq-euler",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 289.552
+    },
+    {
+      "id": "eq-fourth-powers",
+      "kind": "equality",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 82.112
+    },
+    {
+      "id": "eq-log-product",
+      "kind": "equality",
+      "truth": "CONDITIONAL",
+      "status": "CONDITIONAL",
+      "grade": "full",
+      "ms": 91.399
+    },
+    {
+      "id": "eq-sqrt-square",
+      "kind": "equality",
+      "truth": "CONDITIONAL",
+      "status": "CONDITIONAL",
+      "grade": "full",
+      "ms": 18.758
+    },
+    {
+      "id": "eq-atan-recip",
+      "kind": "equality",
+      "truth": "CONDITIONAL",
+      "status": "CONDITIONAL",
+      "grade": "full",
+      "ms": 42.774
+    },
+    {
+      "id": "eq-binomial-wrong",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 19.363
+    },
+    {
+      "id": "eq-sin-sum-wrong",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 59.517
+    },
+    {
+      "id": "eq-sqrt-sum-wrong",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 34.223
+    },
+    {
+      "id": "eq-log-sum-wrong",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 25.911
+    },
+    {
+      "id": "eq-sin-cos-minus",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 44.971
+    },
+    {
+      "id": "eq-exp-sum-wrong",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 50.725
+    },
+    {
+      "id": "eq-near-miss-1e30",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 2.781
+    },
+    {
+      "id": "eq-cos-wrong",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 32.049
+    },
+    {
+      "id": "eq-cube-diff-wrong",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 24.791
+    },
+    {
+      "id": "eq-recip-sum-wrong",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 47.474
+    },
+    {
+      "id": "eq-tan-sum-wrong",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 132.282
+    },
+    {
+      "id": "eq-sin-small-angle",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 30.998
+    },
+    {
+      "id": "eq-square-double",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 12.076
+    },
+    {
+      "id": "eq-exp-square-wrong",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 54.906
+    },
+    {
+      "id": "eq-hyp-plus-wrong",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 55.7
+    },
+    {
+      "id": "eq-sin-triple-wrong",
+      "kind": "equality",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 41.247
+    },
+    {
+      "id": "eq-malformed",
+      "kind": "equality",
+      "truth": "ILL_FORMED",
+      "status": "ILL_FORMED",
+      "grade": "full",
+      "ms": 0.813
+    },
+    {
+      "id": "eq-injection",
+      "kind": "equality",
+      "truth": "ILL_FORMED",
+      "status": "ILL_FORMED",
+      "grade": "full",
+      "ms": 0.008
+    },
+    {
+      "id": "mx-rot-x-orthogonal",
+      "kind": "matrix",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 76.484
+    },
+    {
+      "id": "mx-identity-orthogonal",
+      "kind": "matrix",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 4.201
+    },
+    {
+      "id": "mx-1234-orthogonal",
+      "kind": "matrix",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 3.137
+    },
+    {
+      "id": "mx-rot2d-orthogonal",
+      "kind": "matrix",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 45.836
+    },
+    {
+      "id": "mx-reflect-orthogonal",
+      "kind": "matrix",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 42.993
+    },
+    {
+      "id": "mx-scaled-rot-orthogonal",
+      "kind": "matrix",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 36.583
+    },
+    {
+      "id": "mx-sym-true",
+      "kind": "matrix",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 4.367
+    },
+    {
+      "id": "mx-sym-false",
+      "kind": "matrix",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 12.247
+    },
+    {
+      "id": "mx-sym-nonsquare",
+      "kind": "matrix",
+      "truth": "ILL_FORMED",
+      "status": "ILL_FORMED",
+      "grade": "full",
+      "ms": 2.881
+    },
+    {
+      "id": "mx-inverse-true",
+      "kind": "matrix",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 5.519
+    },
+    {
+      "id": "mx-inverse-false",
+      "kind": "matrix",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 4.435
+    },
+    {
+      "id": "mx-commute-false",
+      "kind": "matrix",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 4.285
+    },
+    {
+      "id": "mx-commute-diag",
+      "kind": "matrix",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 6.33
+    },
+    {
+      "id": "mx-equal-true",
+      "kind": "matrix",
+      "truth": "TRUE",
+      "status": "PROVED",
+      "grade": "full",
+      "ms": 5.758
+    },
+    {
+      "id": "mx-equal-false",
+      "kind": "matrix",
+      "truth": "FALSE",
+      "status": "REFUTED",
+      "grade": "full",
+      "ms": 14.988
+    }
+  ]
+}

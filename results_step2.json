@@ -1,0 +1,1482 @@
+{
+ "report": {
+  "n_items": 60,
+  "majority_baseline": {
+   "label": "FALSE",
+   "accuracy": 0.483,
+   "counts": {
+    "FALSE": 29,
+    "TRUE": 25,
+    "CONDITIONAL": 6
+   }
+  },
+  "conditions": {
+   "baseline": {
+    "accuracy": 1.0,
+    "false_assurance": 0,
+    "unparsed": 0
+   },
+   "grounded": {
+    "accuracy": 1.0,
+    "false_assurance": 0,
+    "unparsed": 0
+   }
+  },
+  "comparisons": {
+   "baseline->grounded": {
+    "n": 60,
+    "baseline_accuracy": 1.0,
+    "other_accuracy": 1.0,
+    "gained": 0,
+    "lost": 0,
+    "net": 0,
+    "sign_test_p": 1.0,
+    "baseline_false_assurance": 0,
+    "other_false_assurance": 0,
+    "note": "p is a rough guide only; small samples and one model prove little."
+   }
+  }
+ },
+ "feedback_log": [
+  {
+   "timestamp": "2026-10-08T18:34:41.317798+00:00",
+   "signal_id": "eq-exp-square-wrong-m1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317818+00:00",
+   "signal_id": "eq-sin-double-m1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317823+00:00",
+   "signal_id": "mx-sym-false",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317829+00:00",
+   "signal_id": "eq-cos-double-r1",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317834+00:00",
+   "signal_id": "eq-sin-double",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317838+00:00",
+   "signal_id": "eq-diff-cubes-m1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317843+00:00",
+   "signal_id": "eq-sin-sum-wrong-r1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317846+00:00",
+   "signal_id": "eq-euler-r1",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317850+00:00",
+   "signal_id": "eq-cancel-m1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317854+00:00",
+   "signal_id": "eq-cube-expand-r1",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317858+00:00",
+   "signal_id": "eq-sin-sum-r1",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317862+00:00",
+   "signal_id": "eq-binomial-wrong-m1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317866+00:00",
+   "signal_id": "eq-euler",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317870+00:00",
+   "signal_id": "eq-tan-ratio-r1",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317875+00:00",
+   "signal_id": "eq-log-exp-real",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317879+00:00",
+   "signal_id": "mx-commute-false",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317883+00:00",
+   "signal_id": "eq-sqrt-square-r1",
+   "ai_decision": "[my-tested-model/baseline] answered CONDITIONAL",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "CONDITIONAL",
+    "answer": "CONDITIONAL",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317888+00:00",
+   "signal_id": "eq-sinh-def-r1",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317892+00:00",
+   "signal_id": "mx-sym-true",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317896+00:00",
+   "signal_id": "eq-sin-triple-wrong-r1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317900+00:00",
+   "signal_id": "eq-atan-recip-m1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317905+00:00",
+   "signal_id": "eq-tan-sum-wrong-m1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317909+00:00",
+   "signal_id": "eq-exp-add-r1",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317912+00:00",
+   "signal_id": "eq-cube-diff-wrong-m1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317917+00:00",
+   "signal_id": "eq-sin-sum-m1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317922+00:00",
+   "signal_id": "eq-cos-wrong-m1",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317926+00:00",
+   "signal_id": "eq-log-product-r1",
+   "ai_decision": "[my-tested-model/baseline] answered CONDITIONAL",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "CONDITIONAL",
+    "answer": "CONDITIONAL",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317932+00:00",
+   "signal_id": "eq-near-miss-1e30-r1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317938+00:00",
+   "signal_id": "eq-tan-sum-wrong",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.317943+00:00",
+   "signal_id": "eq-diff-squares-m1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318043+00:00",
+   "signal_id": "eq-sqrt-square",
+   "ai_decision": "[my-tested-model/baseline] answered CONDITIONAL",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "CONDITIONAL",
+    "answer": "CONDITIONAL",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318068+00:00",
+   "signal_id": "eq-sin-cos-minus-m1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318076+00:00",
+   "signal_id": "eq-square-expand",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318082+00:00",
+   "signal_id": "eq-binomial-wrong",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318087+00:00",
+   "signal_id": "eq-diff-cubes-r1",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318092+00:00",
+   "signal_id": "eq-atan-recip",
+   "ai_decision": "[my-tested-model/baseline] answered CONDITIONAL",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "CONDITIONAL",
+    "answer": "CONDITIONAL",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318097+00:00",
+   "signal_id": "eq-atan-recip-r1",
+   "ai_decision": "[my-tested-model/baseline] answered CONDITIONAL",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "CONDITIONAL",
+    "answer": "CONDITIONAL",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318102+00:00",
+   "signal_id": "eq-hyp-pyth-r1",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318108+00:00",
+   "signal_id": "mx-inverse-false",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318113+00:00",
+   "signal_id": "eq-sinh-def-m1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318118+00:00",
+   "signal_id": "eq-hyp-pyth",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318124+00:00",
+   "signal_id": "eq-cancel-r1",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318130+00:00",
+   "signal_id": "eq-cube-diff-wrong-r1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318135+00:00",
+   "signal_id": "eq-square-double-r1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318179+00:00",
+   "signal_id": "mx-equal-false",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318189+00:00",
+   "signal_id": "eq-log-product",
+   "ai_decision": "[my-tested-model/baseline] answered CONDITIONAL",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "CONDITIONAL",
+    "answer": "CONDITIONAL",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318197+00:00",
+   "signal_id": "eq-exp-add",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318204+00:00",
+   "signal_id": "eq-log-sum-wrong-r1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318212+00:00",
+   "signal_id": "eq-pythagoras-r1",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318217+00:00",
+   "signal_id": "eq-exp-square-wrong",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318222+00:00",
+   "signal_id": "eq-exp-add-m1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318227+00:00",
+   "signal_id": "eq-sinh-def",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318232+00:00",
+   "signal_id": "mx-rot2d-orthogonal",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318237+00:00",
+   "signal_id": "mx-identity-orthogonal",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318242+00:00",
+   "signal_id": "eq-binomial-wrong-r1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318247+00:00",
+   "signal_id": "eq-near-miss-1e30",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318251+00:00",
+   "signal_id": "eq-cube-expand",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318256+00:00",
+   "signal_id": "mx-commute-diag",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318261+00:00",
+   "signal_id": "eq-recip-sum-wrong-r1",
+   "ai_decision": "[my-tested-model/baseline] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318266+00:00",
+   "signal_id": "mx-equal-true",
+   "ai_decision": "[my-tested-model/baseline] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "baseline",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318491+00:00",
+   "signal_id": "eq-exp-square-wrong-m1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318501+00:00",
+   "signal_id": "eq-sin-double-m1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318506+00:00",
+   "signal_id": "mx-sym-false",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318510+00:00",
+   "signal_id": "eq-cos-double-r1",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318515+00:00",
+   "signal_id": "eq-sin-double",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318520+00:00",
+   "signal_id": "eq-diff-cubes-m1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318524+00:00",
+   "signal_id": "eq-sin-sum-wrong-r1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318528+00:00",
+   "signal_id": "eq-euler-r1",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318532+00:00",
+   "signal_id": "eq-cancel-m1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318537+00:00",
+   "signal_id": "eq-cube-expand-r1",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318540+00:00",
+   "signal_id": "eq-sin-sum-r1",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318544+00:00",
+   "signal_id": "eq-binomial-wrong-m1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318548+00:00",
+   "signal_id": "eq-euler",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318553+00:00",
+   "signal_id": "eq-tan-ratio-r1",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318558+00:00",
+   "signal_id": "eq-log-exp-real",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318563+00:00",
+   "signal_id": "mx-commute-false",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318567+00:00",
+   "signal_id": "eq-sqrt-square-r1",
+   "ai_decision": "[my-tested-model/grounded] answered CONDITIONAL",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "CONDITIONAL",
+    "answer": "CONDITIONAL",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318573+00:00",
+   "signal_id": "eq-sinh-def-r1",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318577+00:00",
+   "signal_id": "mx-sym-true",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318582+00:00",
+   "signal_id": "eq-sin-triple-wrong-r1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318588+00:00",
+   "signal_id": "eq-atan-recip-m1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318595+00:00",
+   "signal_id": "eq-tan-sum-wrong-m1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318600+00:00",
+   "signal_id": "eq-exp-add-r1",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318605+00:00",
+   "signal_id": "eq-cube-diff-wrong-m1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318609+00:00",
+   "signal_id": "eq-sin-sum-m1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318613+00:00",
+   "signal_id": "eq-cos-wrong-m1",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318618+00:00",
+   "signal_id": "eq-log-product-r1",
+   "ai_decision": "[my-tested-model/grounded] answered CONDITIONAL",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "CONDITIONAL",
+    "answer": "CONDITIONAL",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318622+00:00",
+   "signal_id": "eq-near-miss-1e30-r1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318627+00:00",
+   "signal_id": "eq-tan-sum-wrong",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318631+00:00",
+   "signal_id": "eq-diff-squares-m1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318635+00:00",
+   "signal_id": "eq-sqrt-square",
+   "ai_decision": "[my-tested-model/grounded] answered CONDITIONAL",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "CONDITIONAL",
+    "answer": "CONDITIONAL",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318640+00:00",
+   "signal_id": "eq-sin-cos-minus-m1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318645+00:00",
+   "signal_id": "eq-square-expand",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318649+00:00",
+   "signal_id": "eq-binomial-wrong",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318654+00:00",
+   "signal_id": "eq-diff-cubes-r1",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318658+00:00",
+   "signal_id": "eq-atan-recip",
+   "ai_decision": "[my-tested-model/grounded] answered CONDITIONAL",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "CONDITIONAL",
+    "answer": "CONDITIONAL",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318663+00:00",
+   "signal_id": "eq-atan-recip-r1",
+   "ai_decision": "[my-tested-model/grounded] answered CONDITIONAL",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "CONDITIONAL",
+    "answer": "CONDITIONAL",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318670+00:00",
+   "signal_id": "eq-hyp-pyth-r1",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318677+00:00",
+   "signal_id": "mx-inverse-false",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318682+00:00",
+   "signal_id": "eq-sinh-def-m1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318687+00:00",
+   "signal_id": "eq-hyp-pyth",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318695+00:00",
+   "signal_id": "eq-cancel-r1",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318700+00:00",
+   "signal_id": "eq-cube-diff-wrong-r1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318705+00:00",
+   "signal_id": "eq-square-double-r1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318710+00:00",
+   "signal_id": "mx-equal-false",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318714+00:00",
+   "signal_id": "eq-log-product",
+   "ai_decision": "[my-tested-model/grounded] answered CONDITIONAL",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "CONDITIONAL",
+    "answer": "CONDITIONAL",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318718+00:00",
+   "signal_id": "eq-exp-add",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318722+00:00",
+   "signal_id": "eq-log-sum-wrong-r1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318727+00:00",
+   "signal_id": "eq-pythagoras-r1",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318731+00:00",
+   "signal_id": "eq-exp-square-wrong",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318735+00:00",
+   "signal_id": "eq-exp-add-m1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318739+00:00",
+   "signal_id": "eq-sinh-def",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318743+00:00",
+   "signal_id": "mx-rot2d-orthogonal",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318747+00:00",
+   "signal_id": "mx-identity-orthogonal",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318751+00:00",
+   "signal_id": "eq-binomial-wrong-r1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318756+00:00",
+   "signal_id": "eq-near-miss-1e30",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318760+00:00",
+   "signal_id": "eq-cube-expand",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318764+00:00",
+   "signal_id": "mx-commute-diag",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318768+00:00",
+   "signal_id": "eq-recip-sum-wrong-r1",
+   "ai_decision": "[my-tested-model/grounded] answered FALSE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "FALSE",
+    "answer": "FALSE",
+    "false_assurance": false
+   }
+  },
+  {
+   "timestamp": "2026-10-08T18:34:41.318772+00:00",
+   "signal_id": "mx-equal-true",
+   "ai_decision": "[my-tested-model/grounded] answered TRUE",
+   "outcome": "correct",
+   "metadata": {
+    "condition": "grounded",
+    "truth": "TRUE",
+    "answer": "TRUE",
+    "false_assurance": false
+   }
+  }
+ ]
+}
